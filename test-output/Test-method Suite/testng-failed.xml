@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Test-method Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="Test-method test(failed)">
+    <classes>
+      <class name="com.grubbrr.webautomation.test.OrdersFlowParallelTest">
+        <methods>
+          <include name="Make_Order2"/>
+          <include name="Make_Order1"/>
+          <include name="endTestWork"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.grubbrr.webautomation.test.OrdersFlowParallelTest -->
+    </classes>
+  </test> <!-- Test-method test(failed) -->
+</suite> <!-- Failed suite [Test-method Suite] -->
