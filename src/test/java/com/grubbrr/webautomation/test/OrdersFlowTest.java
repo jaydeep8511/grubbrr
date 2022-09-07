@@ -21,12 +21,7 @@ import com.grubbrr.webautomation.WebIndex;
 public class OrdersFlowTest {
 	WebDriver driver;
 	WebIndex homePage;
-	PropertiesFile url = new PropertiesFile("Data\\url Configuration.properties");
-
-	Common excelTestResult;
-	Common excel;
-	SoftAssert softAssert;
-
+	
 	public OrdersFlowTest() throws Exception {
 
 	}
