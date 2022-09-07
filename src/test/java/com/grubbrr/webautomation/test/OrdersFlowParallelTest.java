@@ -20,8 +20,6 @@ public class OrdersFlowParallelTest {
 		WebDriver driver = testbase.init();
 		WebIndex homePage = PageFactory.initElements(driver, WebIndex.class);
 
-//		driver = 
-//		System.out.println("Opened phoneAap1 session");
 
 		homePage.openUrl("homepage");
 		homePage.clicks_On_Delivery_Button();
